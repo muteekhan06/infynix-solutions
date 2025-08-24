@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/Organization">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infynix Solutions - Intelligent Solutions for the Future | AI Development & Digital Services</title>
+    <meta name="description" content="🚀 Transform your business with Infynix Solutions' cutting-edge AI development, web design, software solutions & digital media services. 150+ successful projects delivered. Get free consultation today!">
+    <meta name="keywords" content="AI development, artificial intelligence, machine learning, web development, WordPress development, Shopify development, software solutions, Python automation, graphic design, digital marketing, SEO optimization, chatbot development, e-commerce solutions, brand identity, UI UX design">
+    <meta name="author" content="Infynix Solutions">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <link rel="canonical" href="https://infynixsolutions.com">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Infynix Solutions - Intelligent Solutions for the Future | AI Development & Digital Services">
+    <meta property="og:description" content="🚀 Transform your business with cutting-edge AI development, web design & software solutions. 150+ projects delivered. Free consultation available!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://infynixsolutions.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Infynix Solutions">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Infynix Solutions - Intelligent Solutions for the Future">
+    <meta name="twitter:description" content="🚀 Transform your business with cutting-edge AI development, web design & software solutions. 150+ projects delivered.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta name="twitter:site" content="@infynixsolutions">
+    <meta name="twitter:creator" content="@infynixsolutions">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#1e3a8a">
+    <meta name="msapplication-TileColor" content="#1e3a8a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': '#1e3a8a',
+                        'navy-dark': '#1e40af',
+                        'electric': '#3b82f6',
+                        'neon': '#10b981'
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                        'poppins': ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(59, 130, 246, 0.8) 100%), 
+                        url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=2025&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6 0%, #10b981 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .image-optimize {
+            loading: lazy;
+            decoding: async;
+        }
+        
+        /* Performance optimizations */
+        .will-change-transform {
+            will-change: transform;
+        }
+        
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            .dark-mode-text {
+                color: #f3f4f6;
+            }
+        }
+        
+        /* Image lazy loading effect */
+        .fade-in-image {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        
+        .fade-in-image.loaded {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="font-inter bg-white dark:bg-gray-900">
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Infynix Solutions",
+        "url": "https://infynixsolutions.com",
+        "logo": "https://infynixsolutions.com/logo.png",
+        "description": "Leading digital solutions company specializing in AI development, web design, software solutions, and digital media services.",
+        "foundingDate": "2019",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Innovation Drive",
+            "addressLocality": "Tech City",
+            "addressRegion": "TC",
+            "postalCode": "12345",
+            "addressCountry": "US"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-555-123-4567",
+            "contactType": "customer service",
+            "email": "hello@infynixsolutions.com",
+            "availableLanguage": ["English"]
+        },
+        "sameAs": [
+            "https://linkedin.com/company/infynix-solutions",
+            "https://twitter.com/infynixsolutions",
+            "https://facebook.com/infynixsolutions"
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Digital Solutions Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AI Development",
+                        "description": "Custom AI chatbots, automation, analytics, and content generation solutions"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Web Development",
+                        "description": "WordPress, Shopify, e-commerce, responsive design, and SEO optimization"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "150",
+            "bestRating": "5"
+        }
+    }
+    </script>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-lg transition-all duration-300" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold gradient-text">Infynix Solutions</h1>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">Home</a>
+                    <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">About</a>
+                    <a href="#services" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">Services</a>
+                    <a href="#portfolio" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">Portfolio</a>
+                    <a href="#testimonials" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">Testimonials</a>
+                    <a href="#contact" class="bg-electric text-white px-6 py-2 rounded-full hover:bg-navy transition-colors">Contact Us</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 dark:text-gray-300" aria-label="Toggle mobile menu">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden pb-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#home" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">Home</a>
+                    <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">About</a>
+                    <a href="#services" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">Services</a>
+                    <a href="#portfolio" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">Portfolio</a>
+                    <a href="#testimonials" class="text-gray-700 dark:text-gray-300 hover:text-electric transition-colors">Testimonials</a>
+                    <a href="#contact" class="bg-electric text-white px-6 py-2 rounded-full hover:bg-navy transition-colors text-center">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen hero-bg flex items-center justify-center relative overflow-hidden" role="banner">
+        <div class="absolute inset-0 bg-gradient-to-r from-navy/20 to-electric/20"></div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <div class="animate-float">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                    Intelligent Solutions <br>
+                    <span class="gradient-text">for the Future</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-4xl mx-auto">
+                    AI, Software, Web, and Media — Driving Impact Where It Matters Most
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="#services" class="bg-electric text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-neon transition-all duration-300 transform hover:scale-105 shadow-lg will-change-transform">
+                        Get Started
+                    </a>
+                    <a href="#contact" class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-navy transition-all duration-300">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#about" class="text-white" aria-label="Scroll to about section">
+                <i class="fas fa-chevron-down text-2xl"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-gray-50 dark:bg-gray-800" role="main">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-navy dark:text-white mb-6">About Infynix Solutions</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                    We are a cutting-edge digital solutions company specializing in AI-powered innovation, professional web solutions, creative design, and digital growth strategies that transform businesses and drive results.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-3xl font-bold text-navy dark:text-white mb-6">Transforming Ideas into Digital Reality</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6 text-lg leading-relaxed">
+                        At Infynix Solutions, we believe in the power of technology to reshape industries and create unprecedented opportunities. Our team of experts combines artificial intelligence, modern web development, and creative design to deliver solutions that don't just meet expectations—they exceed them.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-electric">150+</div>
+                            <div class="text-gray-600 dark:text-gray-300">Projects Delivered</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-neon">80+</div>
+                            <div class="text-gray-600 dark:text-gray-300">Happy Clients</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-electric">5+</div>
+                            <div class="text-gray-600 dark:text-gray-300">Years Experience</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-neon">24/7</div>
+                            <div class="text-gray-600 dark:text-gray-300">Support</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Modern team collaboration in innovative workspace with technology focus" 
+                         class="rounded-lg shadow-2xl w-full h-auto image-optimize fade-in-image"
+                         width="800" height="600">
+                    <div class="absolute inset-0 bg-gradient-to-br from-electric/20 to-neon/20 rounded-lg"></div>
+                    <div class="absolute bottom-4 left-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg p-4">
+                        <h4 class="text-lg font-bold text-navy dark:text-white mb-2">Our Mission</h4>
+                        <p class="text-sm text-gray-600 dark:text-gray-300">
+                            Empowering businesses with intelligent, scalable solutions
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white dark:bg-gray-900">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-navy dark:text-white mb-6">Our Services</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                    Comprehensive digital solutions tailored to elevate your business and drive unprecedented growth.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- AI Development -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover border-t-4 border-electric">
+                    <div class="h-48 bg-gradient-to-br from-electric to-neon relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="AI and Machine Learning Development - Neural Networks and Artificial Intelligence" 
+                             class="w-full h-full object-cover opacity-80 image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-electric/60 to-neon/60"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <i class="fas fa-robot text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">AI Development</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            Custom AI chatbots, intelligent automation systems, advanced analytics, and AI-powered content generation solutions.
+                        </p>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2">
+                            <li><i class="fas fa-check text-neon mr-2"></i>Custom AI Chatbots</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>Process Automation</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>Predictive Analytics</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>Content Generation</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <!-- Web Development -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover border-t-4 border-neon">
+                    <div class="h-48 bg-gradient-to-br from-neon to-electric relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Modern Web Development - Responsive Website Design and Coding" 
+                             class="w-full h-full object-cover opacity-80 image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-neon/60 to-electric/60"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <i class="fas fa-code text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">Web Development</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            Professional WordPress & Shopify development, e-commerce solutions, responsive design, and SEO optimization.
+                        </p>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2">
+                            <li><i class="fas fa-check text-electric mr-2"></i>WordPress Development</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>Shopify E-commerce</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>Responsive Design</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>SEO Optimization</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <!-- Software Solutions -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover border-t-4 border-electric">
+                    <div class="h-48 bg-gradient-to-br from-electric to-neon relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Custom Software Development - Programming and System Architecture" 
+                             class="w-full h-full object-cover opacity-80 image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-electric/60 to-neon/60"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <i class="fas fa-cogs text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">Software Solutions</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            Custom software development and Python automation solutions designed to streamline your business operations.
+                        </p>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2">
+                            <li><i class="fas fa-check text-neon mr-2"></i>Custom Software</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>Python Automation</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>API Integration</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>Database Solutions</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <!-- Graphic Design -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover border-t-4 border-neon">
+                    <div class="h-48 bg-gradient-to-br from-neon to-electric relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Creative Graphic Design - Brand Identity and Visual Design" 
+                             class="w-full h-full object-cover opacity-80 image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-neon/60 to-electric/60"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <i class="fas fa-palette text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">Graphic Design</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            Professional branding, logo design, UI/UX development, and engaging social media graphics that captivate audiences.
+                        </p>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2">
+                            <li><i class="fas fa-check text-electric mr-2"></i>Brand Identity</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>Logo Design</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>UI/UX Design</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>Social Media Graphics</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <!-- Digital Media & Growth -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover border-t-4 border-electric">
+                    <div class="h-48 bg-gradient-to-br from-electric to-neon relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Digital Marketing and Growth Analytics - Data-Driven Marketing Strategies" 
+                             class="w-full h-full object-cover opacity-80 image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-electric/60 to-neon/60"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <i class="fas fa-chart-line text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">Digital Media & Growth</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            YouTube SEO, marketing automation, comprehensive branding, and digital marketing strategies for explosive growth.
+                        </p>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2">
+                            <li><i class="fas fa-check text-neon mr-2"></i>YouTube SEO</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>Marketing Automation</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>Brand Strategy</li>
+                            <li><i class="fas fa-check text-neon mr-2"></i>Digital Marketing</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <!-- Strategic Consultation -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover border-t-4 border-neon">
+                    <div class="h-48 bg-gradient-to-br from-neon to-electric relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Strategic Business Consultation - Expert Advisory and Planning" 
+                             class="w-full h-full object-cover opacity-80 image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-neon/60 to-electric/60"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <i class="fas fa-lightbulb text-4xl text-white"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">Strategic Consultation</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            Expert guidance on digital transformation, technology adoption, and strategic planning for sustainable business growth.
+                        </p>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2">
+                            <li><i class="fas fa-check text-electric mr-2"></i>Digital Strategy</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>Technology Roadmap</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>Process Optimization</li>
+                            <li><i class="fas fa-check text-electric mr-2"></i>Growth Planning</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-navy dark:text-white mb-6">Our Portfolio</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                    Showcasing our latest projects and success stories that demonstrate our expertise and commitment to excellence.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 - E-commerce -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Modern E-commerce Platform - Shopify Store Development with Advanced Features" 
+                             class="w-full h-full object-cover image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-electric/20 to-neon/20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy dark:text-white mb-2">Premium E-Commerce Platform</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Modern Shopify store with AI-powered recommendations, advanced analytics, and seamless checkout experience.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Shopify</span>
+                            <span class="bg-neon/10 text-neon px-3 py-1 rounded-full text-sm">AI Integration</span>
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Analytics</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Portfolio Item 2 - AI Chatbot -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="AI Chatbot Interface - Intelligent Customer Service Solution" 
+                             class="w-full h-full object-cover image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-neon/20 to-electric/20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy dark:text-white mb-2">AI Chatbot Solution</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Intelligent customer service chatbot with natural language processing and multi-language support.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">AI/ML</span>
+                            <span class="bg-neon/10 text-neon px-3 py-1 rounded-full text-sm">Python</span>
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">NLP</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Portfolio Item 3 - Brand Identity -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Brand Identity Design - Complete Visual Brand System" 
+                             class="w-full h-full object-cover image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-electric/20 to-neon/20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy dark:text-white mb-2">Brand Identity Design</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Complete brand overhaul including logo, color scheme, typography, and comprehensive brand guidelines.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Branding</span>
+                            <span class="bg-neon/10 text-neon px-3 py-1 rounded-full text-sm">UI/UX</span>
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Logo Design</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Portfolio Item 4 - Analytics Dashboard -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Business Analytics Dashboard - Real-time Data Visualization" 
+                             class="w-full h-full object-cover image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-neon/20 to-electric/20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy dark:text-white mb-2">Analytics Dashboard</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Real-time business intelligence dashboard with predictive analytics and custom reporting features.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Analytics</span>
+                            <span class="bg-neon/10 text-neon px-3 py-1 rounded-full text-sm">Dashboard</span>
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Data Viz</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Portfolio Item 5 - Mobile App -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Mobile App Design - User Interface and Experience Design" 
+                             class="w-full h-full object-cover image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-electric/20 to-neon/20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy dark:text-white mb-2">Mobile App Design</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">User-centric mobile application with seamless UX, modern interface design, and cross-platform compatibility.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Mobile</span>
+                            <span class="bg-neon/10 text-neon px-3 py-1 rounded-full text-sm">UI/UX</span>
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Cross-Platform</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Portfolio Item 6 - Automation -->
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Business Process Automation - Workflow Optimization System" 
+                             class="w-full h-full object-cover image-optimize fade-in-image"
+                             width="800" height="400">
+                        <div class="absolute inset-0 bg-gradient-to-br from-neon/20 to-electric/20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy dark:text-white mb-2">Automation System</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Custom Python automation solution for streamlined business processes and enhanced operational efficiency.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Automation</span>
+                            <span class="bg-neon/10 text-neon px-3 py-1 rounded-full text-sm">Python</span>
+                            <span class="bg-electric/10 text-electric px-3 py-1 rounded-full text-sm">Workflow</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-navy dark:text-white mb-6">Why Choose Infynix Solutions?</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                    We deliver exceptional results through innovation, expertise, and unwavering commitment to your success.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-electric to-neon rounded-full flex items-center justify-center mx-auto mb-6 will-change-transform">
+                        <i class="fas fa-rocket text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy dark:text-white mb-4">Next-Level Innovation</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Cutting-edge technologies and innovative approaches that keep you ahead of the competition in the digital landscape.
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-neon to-electric rounded-full flex items-center justify-center mx-auto mb-6 will-change-transform">
+                        <i class="fas fa-expand-arrows-alt text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy dark:text-white mb-4">Scalable Solutions</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Future-proof solutions designed to grow with your business and adapt to changing market demands.
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-electric to-neon rounded-full flex items-center justify-center mx-auto mb-6 will-change-transform">
+                        <i class="fas fa-users text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy dark:text-white mb-4">Client-First Approach</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Your success is our priority. We listen, understand, and deliver exactly what you need to thrive.
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-neon to-electric rounded-full flex items-center justify-center mx-auto mb-6 will-change-transform">
+                        <i class="fas fa-trophy text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy dark:text-white mb-4">High-Performance Results</h3>
+                    <p class="text-gray-600 dark:text-gray-300">
+                        Proven track record of delivering exceptional results that exceed expectations and drive growth.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-navy dark:text-white mb-6">What Our Clients Say</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                    Don't just take our word for it. Here's what our satisfied clients have to say about our services and results.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 card-hover" itemscope itemtype="https://schema.org/Review">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b8fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
+                             alt="Sarah Johnson - CEO of TechStart Inc." 
+                             class="w-12 h-12 rounded-full mr-4 image-optimize fade-in-image"
+                             width="48" height="48">
+                        <div>
+                            <h4 class="font-bold text-navy dark:text-white" itemprop="author">Sarah Johnson</h4>
+                            <p class="text-gray-600 dark:text-gray-300 text-sm">CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                        <meta itemprop="ratingValue" content="5">
+                        <meta itemprop="bestRating" content="5">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300" itemprop="reviewBody">
+                        "Infynix Solutions transformed our business with their AI automation. Our efficiency increased by 300% and customer satisfaction reached an all-time high. Truly exceptional work and outstanding support!"
+                    </p>
+                </article>
+                
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 card-hover" itemscope itemtype="https://schema.org/Review">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
+                             alt="Michael Chen - Founder of Digital Dynamics" 
+                             class="w-12 h-12 rounded-full mr-4 image-optimize fade-in-image"
+                             width="48" height="48">
+                        <div>
+                            <h4 class="font-bold text-navy dark:text-white" itemprop="author">Michael Chen</h4>
+                            <p class="text-gray-600 dark:text-gray-300 text-sm">Founder, Digital Dynamics</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                        <meta itemprop="ratingValue" content="5">
+                        <meta itemprop="bestRating" content="5">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300" itemprop="reviewBody">
+                        "Their web development expertise is unmatched. Our new e-commerce platform generated 250% more revenue within the first month. Outstanding professionalism and incredible results!"
+                    </p>
+                </article>
+                
+                <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 card-hover" itemscope itemtype="https://schema.org/Review">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
+                             alt="Emily Rodriguez - Marketing Director at GrowthCo" 
+                             class="w-12 h-12 rounded-full mr-4 image-optimize fade-in-image"
+                             width="48" height="48">
+                        <div>
+                            <h4 class="font-bold text-navy dark:text-white" itemprop="author">Emily Rodriguez</h4>
+                            <p class="text-gray-600 dark:text-gray-300 text-sm">Marketing Director, GrowthCo</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                        <meta itemprop="ratingValue" content="5">
+                        <meta itemprop="bestRating" content="5">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300" itemprop="reviewBody">
+                        "The brand identity they created perfectly captured our vision. Our social media engagement tripled, and we've seen incredible growth. Highly recommend their creative services!"
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+                 alt="Futuristic Technology Background - Digital Innovation and Future" 
+                 class="w-full h-full object-cover image-optimize"
+                 width="2000" height="800">
+            <div class="absolute inset-0 bg-gradient-to-r from-navy/90 to-electric/80"></div>
+        </div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
+                Ready to Elevate Your Business?
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-200">
+                Let's Build the Future Together. Transform your ideas into reality with our cutting-edge solutions and expert guidance.
+            </p>
+            <a href="#contact" class="bg-white text-navy px-10 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg inline-block will-change-transform">
+                Book a Free Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white dark:bg-gray-900" itemscope itemtype="https://schema.org/ContactPage">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-navy dark:text-white mb-6">Get In Touch</h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                    Ready to start your digital transformation journey? We'd love to hear from you and discuss your project requirements.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <div>
+                    <h3 class="text-2xl font-bold text-navy dark:text-white mb-6">Contact Information</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center" itemprop="email">
+                            <div class="w-12 h-12 bg-electric rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-navy dark:text-white">Email</h4>
+                                <a href="mailto:hello@infynixsolutions.com" class="text-gray-600 dark:text-gray-300 hover:text-electric transition-colors">hello@infynixsolutions.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center" itemprop="telephone">
+                            <div class="w-12 h-12 bg-neon rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-navy dark:text-white">Phone</h4>
+                                <a href="tel:+15551234567" class="text-gray-600 dark:text-gray-300 hover:text-neon transition-colors">+1 (555) 123-4567</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                            <div class="w-12 h-12 bg-electric rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-navy dark:text-white">Address</h4>
+                                <p class="text-gray-600 dark:text-gray-300">
+                                    <span itemprop="streetAddress">123 Innovation Drive</span>, 
+                                    <span itemprop="addressLocality">Tech City</span>, 
+                                    <span itemprop="postalCode">TC 12345</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-semibold text-navy dark:text-white mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://linkedin.com/company/infynix-solutions" class="w-10 h-10 bg-electric rounded-full flex items-center justify-center text-white hover:bg-neon transition-colors" aria-label="Follow us on LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/infynixsolutions" class="w-10 h-10 bg-electric rounded-full flex items-center justify-center text-white hover:bg-neon transition-colors" aria-label="Follow us on Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://facebook.com/infynixsolutions" class="w-10 h-10 bg-electric rounded-full flex items-center justify-center text-white hover:bg-neon transition-colors" aria-label="Follow us on Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com/infynixsolutions" class="w-10 h-10 bg-electric rounded-full flex items-center justify-center text-white hover:bg-neon transition-colors" aria-label="Follow us on Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 dark:bg-gray-800 rounded-xl p-8">
+                    <h3 class="text-2xl font-bold text-navy dark:text-white mb-6">Send us a Message</h3>
+                    <form id="contact-form" class="space-y-6" novalidate>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="firstName" class="block text-gray-700 dark:text-gray-300 mb-2">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white text-base focus:outline-none focus:ring-2 focus:ring-electric" required>
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-gray-700 dark:text-gray-300 mb-2">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white text-base focus:outline-none focus:ring-2 focus:ring-electric" required>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-gray-700 dark:text-gray-300 mb-2">Email *</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white text-base focus:outline-none focus:ring-2 focus:ring-electric" required>
+                        </div>
+                        
+                        <div>
+                            <label for="service" class="block text-gray-700 dark:text-gray-300 mb-2">Service Interested In</label>
+                            <select id="service" name="service" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white text-base focus:outline-none focus:ring-2 focus:ring-electric">
+                                <option value="">Select a service</option>
+                                <option value="ai-development">AI Development</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="software-solutions">Software Solutions</option>
+                                <option value="graphic-design">Graphic Design</option>
+                                <option value="digital-media">Digital Media & Growth</option>
+                                <option value="consultation">Strategic Consultation</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-gray-700 dark:text-gray-300 mb-2">Message *</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white text-base focus:outline-none focus:ring-2 focus:ring-electric" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-electric text-white py-3 rounded-lg font-semibold hover:bg-neon transition-colors will-change-transform">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy text-white py-12" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold gradient-text mb-4">Infynix Solutions</h3>
+                    <p class="text-gray-300 mb-4">
+                        Intelligent Solutions for the Future. Transforming businesses through AI, technology, and innovation for sustainable growth.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://linkedin.com/company/infynix-solutions" class="text-gray-300 hover:text-electric transition-colors" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="https://twitter.com/infynixsolutions" class="text-gray-300 hover:text-electric transition-colors" aria-label="Twitter">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="https://facebook.com/infynixsolutions" class="text-gray-300 hover:text-electric transition-colors" aria-label="Facebook">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="https://instagram.com/infynixsolutions" class="text-gray-300 hover:text-electric transition-colors" aria-label="Instagram">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#services" class="hover:text-electric transition-colors">AI Development</a></li>
+                        <li><a href="#services" class="hover:text-electric transition-colors">Web Development</a></li>
+                        <li><a href="#services" class="hover:text-electric transition-colors">Software Solutions</a></li>
+                        <li><a href="#services" class="hover:text-electric transition-colors">Graphic Design</a></li>
+                        <li><a href="#services" class="hover:text-electric transition-colors">Digital Media</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#about" class="hover:text-electric transition-colors">About Us</a></li>
+                        <li><a href="#portfolio" class="hover:text-electric transition-colors">Portfolio</a></li>
+                        <li><a href="#testimonials" class="hover:text-electric transition-colors">Testimonials</a></li>
+                        <li><a href="#contact" class="hover:text-electric transition-colors">Contact</a></li>
+                        <li><a href="/careers" class="hover:text-electric transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <p><i class="fas fa-envelope mr-2"></i><a href="mailto:hello@infynixsolutions.com" class="hover:text-electric transition-colors">hello@infynixsolutions.com</a></p>
+                        <p><i class="fas fa-phone mr-2"></i><a href="tel:+15551234567" class="hover:text-electric transition-colors">+1 (555) 123-4567</a></p>
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>123 Innovation Drive, Tech City</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2024 Infynix Solutions. All rights reserved. | 
+                   <a href="/privacy" class="hover:text-electric transition-colors">Privacy Policy</a> | 
+                   <a href="/terms" class="hover:text-electric transition-colors">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dark mode detection and handling
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Navbar scroll effect with performance optimization
+        let ticking = false;
+        function updateNavbar() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('bg-white/98', 'dark:bg-gray-900/98');
+                navbar.classList.remove('bg-white/95', 'dark:bg-gray-900/95');
+            } else {
+                navbar.classList.add('bg-white/95', 'dark:bg-gray-900/95');
+                navbar.classList.remove('bg-white/98', 'dark:bg-gray-900/98');
+            }
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(updateNavbar);
+                ticking = true;
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    
+                    // Close mobile menu if open
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Image lazy loading and fade-in effect
+        const images = document.querySelectorAll('.fade-in-image');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.classList.add('loaded');
+                    observer.unobserve(img);
+                }
+            });
+        });
+
+        images.forEach(img => {
+            imageObserver.observe(img);
+        });
+
+        // Form submission with validation and success modal
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic form validation
+            const firstName = document.getElementById('firstName').value.trim();
+            const lastName = document.getElementById('lastName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+            
+            if (!firstName || !lastName || !email || !message) {
+                showCustomModal('Please fill in all required fields.', 'error');
+                return;
+            }
+            
+            if (!isValidEmail(email)) {
+                showCustomModal('Please enter a valid email address.', 'error');
+                return;
+            }
+            
+            // Show success modal
+            showCustomModal('Thank you for contacting us! We\'ll get back to you within 24 hours.', 'success');
+            
+            // Reset form
+            this.reset();
+        });
+
+        // Email validation function
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        // Custom modal function for better UX
+        function showCustomModal(message, type) {
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
+            
+            const iconClass = type === 'success' ? 'fas fa-check' : 'fas fa-exclamation-triangle';
+            const iconColor = type === 'success' ? 'from-electric to-neon' : 'from-red-500 to-orange-500';
+            const buttonColor = type === 'success' ? 'bg-electric hover:bg-navy' : 'bg-red-500 hover:bg-red-600';
+            
+            modal.innerHTML = `
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg max-w-md w-full mx-4 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br ${iconColor} rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="${iconClass} text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">${type === 'success' ? 'Success!' : 'Error'}</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6">${message}</p>
+                    <button class="${buttonColor} text-white px-6 py-2 rounded-full transition-colors" onclick="this.closest('.fixed').remove()">
+                        Close
+                    </button>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        // Animation on scroll with performance optimization
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Apply animation to cards and sections
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.card-hover, section > div > div').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+        });
+
+        // Performance optimization: Preload critical images
+        const criticalImages = [
+            'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=2025&q=80',
+            'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+        ];
+
+        criticalImages.forEach(src => {
+            const link = document.createElement('link');
+            link.rel = 'preload';
+            link.as = 'image';
+            link.href = src;
+            document.head.appendChild(link);
+        });
+    </script>
+</body>
+</html>
